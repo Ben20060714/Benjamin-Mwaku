@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@source "../**/*.{html,js}";
+
+@theme {
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-sans: "Trebuchet MS", Verdana, sans-serif;
+  --color-night: #020617;
+  --color-ink: #0f172a;
+  --color-skyline: #67e8f9;
+  --color-gold: #fde68a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.grid-mask {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}

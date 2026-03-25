@@ -1,0 +1,8 @@
+{
+  "name": "myportfolio",
+  "private": true,
+  "scripts": {
+    "build:css": "..\\node_modules\\.bin\\tailwindcss.cmd -i ./src/input.css -o ./assets/css/output.css --minify",
+    "watch:css": "..\\node_modules\\.bin\\tailwindcss.cmd -i ./src/input.css -o ./assets/css/output.css --watch"
+  }
+}
