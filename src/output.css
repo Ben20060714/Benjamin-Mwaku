@@ -70,6 +70,7 @@
   html, :host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
     tab-size: 4;
     font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
     font-feature-settings: var(--default-font-feature-settings, normal);
@@ -1041,6 +1042,7 @@ body {
   background-image: linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
   background-size: 72px 72px;
   mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
+  -webkit-mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
 }
 .reveal {
   opacity: 0;
