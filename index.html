@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio de Benjamin Mwaku, étudiant à l'Université Don Bosco de Lubumbashi, passionné de programmation, cybersécurité et nouvelles technologies."
-    />
+      content="Portfolio de Benjamin Mwaku, étudiant à l'Université Don Bosco de Lubumbashi, passionné de programmation, cybersécurité et nouvelles technologies."/>
     <title>Benjamin Mwaku | Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body class="bg-slate-950 text-slate-100 selection:bg-amber-300 selection:text-slate-950">
     <div class="pointer-events-none fixed inset-0 overflow-hidden">
@@ -20,15 +19,7 @@
     <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/75 backdrop-blur-xl">
       <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <a href="#accueil" class="font-display text-2xl tracking-[0.2em] text-amber-200">BM</a>
-        <button
-          id="menu-button"
-          class="inline-flex items-center rounded-full border border-white/15 px-4 py-2 text-sm text-slate-100 transition hover:border-amber-200 hover:text-amber-200 md:hidden"
-          type="button"
-          aria-label="Ouvrir le menu"
-          aria-expanded="false"
-        >
-          Menu
-        </button>
+        <button id="menu-button" class="inline-flex items-center rounded-full border border-white/15 px- 4 py-2 text-sm text-slate-100 transition hover:border-amber-200 hover:text-amber-200 md:hidden" type="button" aria-label="Ouvrir le menu" aria-expanded="false" Menu>Menu</button>
         <nav class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
           <a class="transition hover:text-amber-200" href="#apropos">A propos</a>
           <a class="transition hover:text-amber-200" href="#passions">Passions</a>
@@ -63,7 +54,7 @@
             </div>
             <div class="space-y-5">
               <p class="text-sm uppercase tracking-[0.32em] text-slate-400">Benjamin Mwaku</p>
-              <h1 class="max-w-4xl font-display text-5xl leading-none text-white sm:text-6xl lg:text-7xl">
+              <h1 class="max-w-4xl font-display text-5xl leading-none text-white sm:text-6xl lg:text-3xl">
                 Je construis des experiences web avec une vision
                 <span class="text-amber-200">technique</span> et
                 <span class="text-cyan-200">creative</span>.
@@ -74,18 +65,8 @@
               </p>
             </div>
             <div class="flex flex-col gap-4 sm:flex-row">
-              <a
-                href="#accomplissements"
-                class="rounded-full bg-amber-200 px-6 py-3 text-center text-sm font-semibold text-slate-950 transition hover:bg-amber-100"
-              >
-                Voir mon evolution
-              </a>
-              <a
-                href="#parcours"
-                class="rounded-full border border-white/15 px-6 py-3 text-center text-sm font-semibold text-white transition hover:border-cyan-200 hover:text-cyan-200"
-              >
-                Mon parcours
-              </a>
+              <a href="#accomplissements" class="rounded-full bg-amber-200 px-6 py-3 text-center text-sm font-semibold text-slate-950 transition hover:bg-amber-100">Voir mon evolution</a>
+              <a href="#parcours" class="rounded-full border border-white/15 px-6 py-3 text-center text-sm font-semibold text-white transition hover:border-cyan-200 hover:text-cyan-200">Mon parcours</a>
             </div>
             <div class="grid gap-4 sm:grid-cols-3">
               <div class="rounded-3xl border border-white/10 bg-white/5 p-5">
@@ -118,7 +99,7 @@
               <div class="mt-6 space-y-4">
                 <div class="rounded-2xl border border-white/10 bg-slate-950/70 p-4">
                   <p class="text-sm text-slate-400">Langage du moment</p>
-                  <p class="mt-1 text-lg font-semibold text-cyan-200">JavaScript</p>
+                  <p class="mt-1 text-lg font-semibold text-cyan-200">CSS</p>
                 </div>
                 <div class="rounded-2xl border border-white/10 bg-slate-950/70 p-4">
                   <p class="text-sm text-slate-400">Domaine a approfondir</p>
@@ -140,11 +121,14 @@
 
       <section id="apropos" class="mx-auto max-w-7xl px-6 py-16 lg:px-10">
         <div class="reveal grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
-          <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8">
-            <p class="text-sm uppercase tracking-[0.28em] text-amber-200">A propos</p>
-            <h2 class="mt-4 font-display text-4xl text-white">Un profil curieux, rigoureux et tourne vers la technologie.</h2>
+          <div class="rounded-[2rem]">
+            <img class="filter sepia blur-sm rounded-[2rem]" src="assets/img/IMG_8376_PerfectlyClear.jpg" alt="Ma photo">
           </div>
           <div class="rounded-[2rem] border border-white/10 bg-slate-900/70 p-8">
+            <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8">
+              <p class="text-sm uppercase tracking-[0.28em] text-amber-200">A propos</p>
+              <h2 class="mt-4 font-display text-4xl text-white">Un profil curieux, rigoureux et tourne vers la technologie.</h2>
+            </div>
             <p class="text-lg leading-8 text-slate-300">
               Je m'appelle Benjamin Mwaku. Je suis etudiant a l'UDBL et je developpe ma base
               technique autour du web, de l'informatique et de la securite numerique.
