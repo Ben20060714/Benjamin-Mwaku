@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@tailwind base;
+@import "tailwind/preflight";
 @tailwind utilities;
 
 
@@ -32,6 +32,7 @@ body {
     linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
   background-size: 72px 72px;
   mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
+  -webkit-mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
 }
 
 .reveal {
