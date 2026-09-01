@@ -27,22 +27,6 @@ L'interface met l'accent sur :
 - Tailwind CSS
 - JavaScript
 
-## Structure du projet
-
-```text
-Myportfolio/
-|-- assets/
-|   |-- css/
-|   `-- img/
-|-- src/
-|   |-- input.css
-|   `-- output.css
-|-- index.html
-|-- script.js
-|-- package.json
-`-- README.md
-```
-
 ## Fonctionnalites
 
 - page one-page simple et responsive
